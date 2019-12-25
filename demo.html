@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>今天你笑了吗？</title>
+<link rel="stylesheet" href="swiper.min.css">
+<link rel="stylesheet" href="demo.css">
+
+</head>
+
+<body>
+  <div id="h1">
+    <div id="font">今天你笑了吗？</div>
+    <script language="javascript">
+    function changeColor(){
+    var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+    color=color.split("|");
+    document.getElementById("font").style.color=color[parseInt(Math.random() * color.length)];
+    }
+    setInterval("changeColor()",100); 
+</script> 
+  </div>
+  <div id="nav">
+      <div class="nav">
+        <div class="span1"></div>
+        <ul>
+          <li><a href="#">段子</a></li>
+          <li><a href="#">图片</a></li>
+          <li><a href="#">视频</a></li>
+          <li><a href="#">啥也不是</a></li>
+          <li><a href="#">笑话</a></li>
+        </ul>
+        <div class="span2"></div>
+      </div>
+    </div>
+     <div id="bian">
+      <div class="bi"><a href="login.html">登录</a></div>
+      <div class="bi"><a href="#">麻溜的</a></div>
+      <div class="bi"><a href="#">看个笑话</a></div>
+      <div class="bi"><a href="#">看个锤子</a></div>
+      <div class="bi"><a href="#">OK就酱</a></div>
+      <div class="bi"><a href="#">我笑了</a></div>
+    </div>
+  <div id="all">
+  <div id="persons">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+         
+          <img src="images/b1.jpg" alt="" style="width:450px; height: 200px; margin-top: 50px;">
+          <div class="text">
+            <img src="images/pika.gif" />
+            <h2>今天你笑了吗？</h2>
+            <h4>那些一看就会中毒的搞笑视频</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/b1.jpg" alt="" style="width:450px; height: 200px; margin-top: 50px;">
+          <div class="text">
+            <img src="images/pika1.gif" />
+            <h2>今天你笑了吗？</h2>
+            <h4>那些让你捧腹大笑的图片</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/b1.jpg" alt="" style="width:450px; height: 200px; margin-top: 50px;">
+          <div class="text">
+            <img src="images/jini.jpg" />
+            <h2>今天你笑了吗？</h2>
+            <h4>那些让你爆笑不停的段子</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/b1.jpg" alt="" style="width:450px; height: 200px; margin-top: 50px;">
+          <div class="text">
+            <img src="images/pika3.gif" />
+            <h2>今天你笑了吗？</h2>
+            <h4>笑不停的合集</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  </div>
+
+  <div id="fourze">
+    <a href=""><div id="one">那些一看就会中毒的搞笑视频</div></a>
+    <a href=""><div id="one">那些让你捧腹大笑的图片</div></a>
+    <a href=""><div id="one">那些让你爆笑不停的段子</div></a>
+    <a href=""><div id="one">笑不停的合集</div></a>
+  </div>
+  
+  <div id="con">
+     <div id="center">
+      <button class="btn">刷一下试试喽</button>
+    <div class="codeImg">
+      <a href="vedio.html"><img class="get" src="image/tuxiao1.PNG"></a>
+    </div>
+  </div>
+  </div>
+ 
+
+  <div id="bottom">
+    <div id="di">
+    <div class="word">
+      <img src="images/xiao.PNG" style="width:300px; height:60px;">
+      “今天你笑了吗”是一群集聚诙谐、搞笑、滑稽的高端人士倾情打造的搞笑网站，服务于大众，为当下社会中因学业、工作劳累的人们带来一点轻松快乐。笑了吗的宗旨是“承保你的笑点，快乐你的人生”！
+    </div>
+    <div class="list">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp本站导航
+      <ul>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">网站说明</a></li>
+        <li><a href="#">下载须知</a></li>
+      </ul>
+    </div>
+    <div class="list">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp更多介绍
+      <ul>
+        <li><a href="#">隐私协议</a></li>
+        <li><a href="#">权限说明</a></li>
+        <li><a href="#">用户中心</a></li>
+      </ul>
+    </div>
+    <div class="list">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp成员介绍
+      <ul>
+        <li><a href="#">啥也不是</a></li>
+        <li><a href="#">就这样了</a></li>
+        <li><a href="#">我笑了啊</a></li>
+      </ul>
+    </div>
+    <div class="weixin">微信公众号</div>
+    <div class="code"><img src="images/code.png"></div>    
+  </div>
+  </div>
+  <script src="js/swiper.min.js"></script>
+  <script>
+    var btn = document.getElementsByClassName("btn")[0];
+    var imgArr = ["tuxiao1","tuxiao2","tuxiao3","tuxiao4","tuxiao5","tuxiao7","tuxiao6"];
+    var codeImg = document.getElementsByClassName("codeImg")[0];
+    var get = document.getElementsByClassName('get')[0];
+    var num=0;
+    var personsSwiper = new Swiper('#persons .swiper-container', {
+      watchSlidesProgress: true,
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      loop: true,
+      loopedSlides: 5,
+      autoplay: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      on: {
+        progress: function (progress) {
+          for (i = 0; i < this.slides.length; i++) {
+            var slide = this.slides.eq(i);
+            var slideProgress = this.slides[i].progress;
+            modify = 1;
+            if (Math.abs(slideProgress) > 1) {
+              modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+            }
+            translate = slideProgress * modify * 260 + 'px';
+            scale = 1 - Math.abs(slideProgress) / 5;
+            zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+            slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+            slide.css('zIndex', zIndex);
+            slide.css('opacity', 1);
+            if (Math.abs(slideProgress) > 3) {
+              slide.css('opacity', 0);
+            }
+          }
+        },
+        setTransition: function (transition) {
+          for (var i = 0; i < this.slides.length; i++) {
+            var slide = this.slides.eq(i)
+            slide.transition(transition);
+          }
+
+        }
+      }
+    })
+    for(var i=0 ; i<7;i++){
+      btn.onclick = function(){      
+         num=num+1;
+         console.log(imgArr[num]);  
+         get.src="image/"+imgArr[num]+".PNG";               
+      }
+    }
+      // var num = Math.ceil(Math.random() * 6);
+      // num1 = num;
+      // console.log(imgArr[num]);
+     
+  </script>
+</body>
+</html>

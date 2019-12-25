@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vedio</title>
+	<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+	<div id="h1">
+    <div id="font">今天你笑了吗？</div>
+    <script language="javascript">
+    function changeColor(){
+    var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+    color=color.split("|");
+    document.getElementById("font").style.color=color[parseInt(Math.random() * color.length)];
+    }
+    setInterval("changeColor()",100); 
+</script> 
+  </div>
+  <div id="nav">
+      <div class="nav">
+        <div class="span1"></div>
+        <ul>
+          <li><a href="#">段子</a></li>
+          <li><a href="#">图片</a></li>
+          <li><a href="#">视频</a></li>
+          <li><a href="#">啥也不是</a></li>
+          <li><a href="#">笑话</a></li>
+        </ul>
+        <div class="span2"></div>
+      </div>
+    </div>
+    <div id="vi">
+  		<video class="ve" width="600px" height="800px" controls="controls" autoplay="autoplay" style="margin-left: 400px;">
+  		<source src="veido/shadow.mp4" type="video/mp4"/></video>
+	</div>
+    <div id="bian">
+			<div class="bi"><a href="#">登录</a></div>
+			<div class="bi"><a href="#">麻溜的</a></div>
+			<div class="bi"><a href="#">看个笑话</a></div>
+			<div class="bi"><a href="#">看个锤子</a></div>
+			<div class="bi"><a href="#">OK就酱</a></div>
+			<div class="bi"><a href="#">我笑了</a></div>
+    </div>
+
+<div id="bottom">
+    <div id="di">
+    <div class="word">
+      <img src="images/xiao.PNG" style="width:300px; height:60px;">
+      “今天你笑了吗”是一群集聚诙谐、搞笑、滑稽的高端人士倾情打造的搞笑网站，服务于大众，为当下社会中因学业、工作劳累的人们带来一点轻松快乐。笑了吗的宗旨是“承保你的笑点，快乐你的人生”！
+    </div>
+    <div class="list">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp本站导航
+      <ul>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">网站说明</a></li>
+        <li><a href="#">下载须知</a></li>
+      </ul>
+    </div>
+    <div class="list">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp更多介绍
+      <ul>
+        <li><a href="#">隐私协议</a></li>
+        <li><a href="#">权限说明</a></li>
+        <li><a href="#">用户中心</a></li>
+      </ul>
+    </div>
+    <div class="list">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp成员介绍
+      <ul>
+        <li><a href="#">啥也不是</a></li>
+        <li><a href="#">就这样了</a></li>
+        <li><a href="#">我笑了啊</a></li>
+      </ul>
+    </div>
+    <div class="weixin">微信公众号</div>
+    <div class="code"><img src="images/code.png"></div>    
+  </div>
+</div>
+</body>
+</html>

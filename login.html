@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>今天你笑了吗？</title>
+  <style type="text/css">
+    *{
+      padding:0;
+      margin:0;
+    }
+    .login{
+      width: 1000px;
+      height: 400px;
+      margin: 100px auto;
+      border: 1px;
+      background-color:rgba(0, 0, 0, 0.3);
+      padding: 1px;
+      position: relative;
+      color:#fff;
+    }
+    .name{
+      display: inline-block;
+    }
+    .inputName{
+      display: inline-block;
+    }
+    .form-group{
+      width: 350px;
+      height: 50px;
+      line-height: 50px;
+      margin-left: 25px;
+      margin-top: 30px;
+    }
+    .last-group{
+      width: 350px;
+      height: 50px;
+      line-height: 50px;
+      margin-left: 25px;
+    }
+    .a{
+      width: 400px;
+      height: 2px;
+    }
+    .checkbox{
+      width: 300px;
+      height: 50px;
+      margin-left: 100px;
+      line-height: 50px;
+    }
+    .checkbox-inline{
+      width: 20px;
+      height: 20px;
+    }
+    .lg{
+      width: 70px;
+      height: 40px;
+      margin-left: 100px;
+      color:white;
+      font-size: 15px;
+      background-color: rgb(0,100,255);
+    }
+    .img1{
+      width: 500px;
+      height: 300px;
+      margin-top: -185px;
+      margin-left: 450px;
+    }
+    body{
+      background-image: url(login/29.png);
+      background-size: 1800px;
+      /*background-repeat: no-repeat;*/
+      background-position:top center;
+    }
+    input{
+      width: 230px;
+      height: 30px;
+      border:none;
+      border-radius: 10px;
+    }
+    .main{
+      width: all;
+      height: 170px;
+      margin-top:300px;
+      background-color:rgba(0, 0, 0, 0.3);
+      color: white;
+    }
+    .text1{
+      width: 200px;
+      height: 50px;
+      font-size: 50px;
+      margin:0 auto;
+    }
+    .text2{
+      width: 550px;
+      height: 50px;
+      font-size: 50px;
+      margin:0 auto;
+    }
+    .text3{
+      width: 350px;
+      height: 50px;
+      font-size: 50px;
+      margin:0 auto;
+    }
+    .img2{
+      float: left;
+      height: 170px;
+      margin-top: -150px;
+    }
+    .img3{
+      float: right;
+      height: 170px;
+      margin-top: -150px;
+    }
+    .down{
+      background-color: white;
+      width: all;
+      height: 150px;
+      background-image: url(login/000.jpg);
+      background-size: 100px 150px;
+    }
+    .ablock{
+      margin:0 auto;
+      background-color: white;
+      height: 1300px;
+      width: 1800px;
+    }
+    .ablock_top{
+      width: 1800px;
+      height: 120px;
+      background-color: red;
+      color: white;
+    }
+    .text4{
+      font-size: 100px;
+      width: 800px;
+      margin:0 auto;
+    }
+    .ablock1{
+      width: 1800px;
+      height: 600px;
+    }
+    #aimg{
+      width: 1100px;
+      margin-left: 300px;
+
+    }
+    .new1{
+      width: 1100px;
+      height: 50px;
+      margin-left: 300px;
+      font-size: 30px;
+      border-radius: 10px;
+    }
+    .ablock2{
+      width: 1800px;
+      height: 600px;
+    }
+    #bimg{
+      width: 1100px;
+      margin-left: 300px;
+
+    }
+    .new2{
+      width: 1100px;
+      height: 50px;
+      margin-left: 300px;
+      font-size: 30px;
+      border-radius: 10px;
+    }
+    .ablock3{
+      width: 1800px;
+      height: 100px;
+      background-color: red;
+      color: white;
+      
+    }
+    .text5{
+      font-size: 50px;
+      width: 1100px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="login">
+
+      <h2>快来登录吧，你笑了吗，反正我笑了</h2>
+
+      <div class="form-group"> 
+        <span class="name">用户名：</span>
+        <input type="text" name="username" class="inputName" placeholder="admin"> 
+      </div>
+
+      <div class="last-group">
+        <span class="key">密码：&nbsp&nbsp</span>
+        <input type="password" name="password" class="inputKey" id="inputKey"
+        placeholder="admin">
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" class="checkbox-inline" >
+        记住密码
+      </div>
+
+      <div class="log">
+        <input type="button" name="button" value="登录" class="lg" id="lg">
+      </div>
+        <img class="img1" id="img1" src="login/111.png">
+  </div>
+  <div class="main"> 
+    <p class="text1">什么！？</p>
+    <p class="text2">没有注册，只想白嫖！？</p>
+    <p class="text3">小兄弟，我笑了</p>
+    <img class="img2" src="login/index.jpg">
+    <img class="img3" src="login/index.jpg">
+  </div>
+
+  <div class="down"></div>
+
+  <div class="ablock">
+
+    <div class="ablock_top">
+      <p class="text4">白&nbsp&nbsp&nbsp&nbsp&nbsp嫖&nbsp&nbsp&nbsp&nbsp&nbsp区</p>
+    </div>
+
+      <div class="ablock1">
+        <div class="ablock1_top">
+          <button id="new1" class="new1" type="button">刷新一下，更新心情</button>
+        </div>
+        <img id="aimg" src="login/a1.png">
+    </div>
+
+    <div class="ablock2">
+      <div class="ablock2_top">
+         <button id="new2" class="new2" type="button">刷新一下，更新心情</button>
+      </div>
+      <img id="bimg" src="login/b2.png">
+    </div>
+    <div class="ablock3">
+      <p class="text5">听说注册后的世界更精彩哦,我笑了</p>
+    </div>
+  </div>
+
+</body>
+<script type="text/javascript">
+  var inputKey = document.getElementById("inputKey");
+  var img1 = document.getElementById("img1");
+  var new1 = document.getElementById("new1");
+  var aimg = document.getElementById("aimg");
+  var new2 = document.getElementById("new2");
+  var bimg = document.getElementById("bimg");
+
+  var aimgs = ["a1.png","a2.png","a3.png","a4.png","a5.png"];
+  var bimgs = ["b1.png","b2.png","b3.png","b4.png","b5.png"];
+
+  inputKey.onclick = function(){
+    img1.src = "login/index.jpg";
+    img1.style.width = "300px";
+    img1.style.height = "300px";
+  }
+  inputKey.onmouseout = function(){
+    img1.src = "login/333.jpg";
+    img1.style.width = "100px";
+    img1.style.height = "100px";
+  }
+  new1.onclick = function(){
+    var n = Math.floor(Math.random()*10);
+    if(n<5 && n>=0){
+      aimg.src = "login/" + aimgs[n];
+    }
+  }
+  new2.onclick = function(){
+    var m = Math.floor(Math.random()*10);
+    if(m<5 && m>=0){
+      bimg.src = "login/" + bimgs[m];
+    }
+  }
+
+</script>
+</html>
