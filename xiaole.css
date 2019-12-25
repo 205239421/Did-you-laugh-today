@@ -1,0 +1,212 @@
+
+#h1{
+  width: 1800px;
+  color:red;
+  height:80px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 15px;
+
+}
+.img2{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/pika.gif);
+  background-size: 100% 100%;
+}
+.img3{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/pika.gif);
+  background-size: 100% 100%;
+}
+.img4{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/pika.gif);
+  background-size: 100% 100%;
+}
+.img5{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/pika.gif);
+  background-size: 100% 100%;
+}
+.img6{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/pika.gif);
+  background-size: 100% 100%;
+}
+.img7{
+  margin-left: 300px;
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/gaoxiao3.gif);
+  background-size: 100% 100%;
+}
+.img8{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/gaoxiao3.gif);
+  background-size: 100% 100%;
+}
+.img9{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/gaoxiao3.gif);
+  background-size: 100% 100%;
+}
+.img10{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/gaoxiao3.gif);
+  background-size: 100% 100%;
+}
+.img11{
+  width: 150px;
+  height: 80px;
+  float: left;
+  background-image: url(img/gaoxiao3.gif);
+  background-size: 100% 100%;
+}
+#h2{
+  width: 1800px;
+  height: 150px;
+  background-image: url(img/beijingtu5.jpg);
+  background-size: 100% 100%;
+}
+#small{
+  
+}
+  .one{ 
+      width: 1800px;
+      height: 25px;
+    }
+    .two{
+      width: 1800px;
+      height: 20px;
+      background-image: url(img/gaoxiao2.gif);
+      background-size: 100% 50%;
+      position: relative;
+    }
+    .img{
+      position: absolute;
+      margin-left: 150px;
+      margin-top:2px;
+    }
+    .three{
+      width: 1800px;
+      height: 20px;
+      overflow: hidden;
+      position: relative;
+      margin-left: 200px;
+    }
+    .four{
+      width: 400px;
+      color: green;
+      margin-left: 1000px;
+      font-size: 12px;
+    }
+}
+#h2 a{
+      text-decoration: none;
+}
+.a{
+  margin-left:800px;
+
+}
+.b{
+  color: white;
+}
+.c{
+  margin-left: 550px;
+  margin-top: -40px;
+}
+.d{
+  width: 100px;
+  height: 85px;
+  margin-left: 800px;
+  margin-top: -40px;
+  border-right:2px solid rgb(69,69,69);
+}
+.e{
+  width: 100px;
+  height: 85px;
+  margin-left: 905px;
+  margin-top: -87px;
+  border-right:2px solid rgb(69,69,69);
+}
+.f{
+  width: 100px;
+  height: 85px;
+  margin-left: 1010px;
+  margin-top: -87px;
+  border-right:2px solid rgb(69,69,69);
+}
+.g{
+  margin-left: 1400px;
+  margin-top: -30px;
+}
+.input1{
+  width: 400px;
+  height: 36px;
+  border-top:2px solid rgb(150,222,222);
+  border-left:2px solid rgb(150,222,222);
+  border-bottom:2px solid rgb(150,222,222);
+  border-right:1px solid rgb(150,222,222);
+  padding-left: 15px;
+}
+.input2{
+width: 90px;
+height:42px;
+background-color:rgb(150,222,222);
+margin-top:-2px;
+border:1px solid rgb(150,222,222);
+}
+
+
+#nav{
+      width: 1800px;
+      height: 53px;
+      margin-top: -15px;
+      margin-bottom: -1px;
+      background-image: url(img/beijingtu5.jpg);
+      background-size: 100% 100%;
+    }
+    .nav{
+      margin: auto;
+      width:1800px;
+      height:50px;
+      line-height: 20px;
+    }
+    .nav li{
+      width:100px;
+      height: 50px;
+      float: left;
+      font-size:20px;
+      list-style-type: none;
+      margin-left: 180px;
+      text-align: center;
+    }
+    .nav a{
+      display: block;
+      text-decoration: none;
+    }
+    .nav li:hover{
+      border-bottom: 2px solid rgb(123,104,238);
+    }
+    .nav a:hover{
+      color: green;
+    }
+#video{
+  width: 1800px;

@@ -1,0 +1,87 @@
+#h3{
+	width: 1800px;
+	height: 200px;
+	border:1px solid #eee;
+	background-image: url(img/beijingtu5.jpg);
+      background-size: 100% 100%;
+}
+.aa{
+	width: 1800px;
+	height: 25px;
+	background-color: rgb(150,222,222);
+	float: left;
+	position:relative;
+}
+.aaa{
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	color: blue;
+}
+.bbb{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 850px;
+}
+.box{
+		width: 500px;
+		height: 1000px;
+	}
+#slide2{
+	float: left;
+	margin-top: 15px;
+	margin-left:15px;
+}
+.slide2_{
+	border: 3px  dashed #ccc;
+}
+.slide3_{
+	border: 3px  dashed #ccc;
+}
+.slide4_{
+	border: 3px  dashed #ccc;
+}
+.slide5_{
+	border: 3px  dashed #ccc;
+}
+.slide6_{
+	border: 3px  dashed #ccc;
+}
+.slide7_{
+	border: 3px  dashed #ccc;
+}
+.slide8_{
+	border: 3px  dashed #ccc;
+}
+#slide3{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+}
+#slide4{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+}
+#slide5{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+}
+#slide6{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+}
+#slide7{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+}
+#slide8{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+}

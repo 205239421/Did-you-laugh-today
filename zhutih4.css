@@ -1,0 +1,89 @@
+#h4{
+	width: 1800px;
+	height: 400px;
+	border:1px solid #eee;
+	background-image: url(img/beijingtu5.jpg);
+      background-size: 100% 100%;
+}
+.aa_{
+	width: 1800px;
+	height: 25px;
+	background-color: rgb(150,222,222);
+	float: left;
+	position:relative;
+}
+.aaa_{
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	color: blue;
+}
+.bbb_{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 650px;
+	float: left;
+}
+.ccc_{
+	float: left;
+}
+.fff_{
+	color: blue;
+	font-size: 20px;
+	margin-left: 1000px;
+}
+a{
+	text-decoration: none;
+	margin-top: 20px;
+	color: blue;
+}
+.ddd_{
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.eee_{
+	float: left;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.ggg_{
+	float: left;
+	width: 3px;
+	height: 340px;
+	margin-left: 40px;
+	background-color: rgb(150,222,222);
+}
+.hhh_{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.iii_{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.jjj_{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.kkk_{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.lll_{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.mmm_{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
