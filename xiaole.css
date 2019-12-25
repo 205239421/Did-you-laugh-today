@@ -203,7 +203,7 @@ border:1px solid rgb(150,222,222);
       text-decoration: none;
     }
     .nav li:hover{
-      border-bottom: 2px solid rgb(123,104,238);
+      border-bottom: 4px solid rgb(123,104,238);
     }
     .nav a:hover{
       color: green;
