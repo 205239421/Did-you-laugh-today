@@ -1,0 +1,252 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-12-23 19:50:27
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-12-25 17:16:46
+*/
+.hao{
+	background-image: url('beijingtu.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#h1{
+  color:black;
+  height:40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#small{
+  width: 100px;
+  margin-left: 1250px;
+  margin-top: -28px;
+  font-size: 15px;
+}
+.upnext{
+			float:left;
+			line-height:29px; 
+			width:97.5%;
+		}
+		.upnext li{
+			float:left; 
+			width:47%; 
+			height:29px; 
+			overflow:hidden;
+		}
+		.upnext .article_left{ 
+			text-align:left;
+		}
+		.upnext .article_right{ 
+			text-align:right;
+		}
+		.upnext .article_left a{ 
+			text-align:left;
+		}
+		.upnext .article_right a{ 
+			text-align:right;
+		}
+		.upnext li:last-child{
+			text-align:right
+		}
+		.pnav{
+			margin-bottom:1px;
+			background-image: url('timg33.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-left:10px;
+			overflow: hidden;
+			height: 45px;
+			line-height: 50px;
+			text-align: center;
+		}
+		h2{
+			margin-left: 140px;
+		}
+		.pnav a{
+			color: #000000;
+		}
+		p{
+			margin-left: 150px;
+		}
+		.i_more{
+			border: 1px black;
+			height: 34px; 
+			line-height: 34px; 
+			margin-top: -32px;
+			padding-right: 6px; 
+			text-align: right;
+		}
+		.i_more a{
+			display:inline-block; 
+			padding:0 5px; 
+			height:22px; 
+			line-height:22px;
+			background:#FFF；
+		}
+		.hd_pic,.hd_bbs{
+			float:left; 
+			width:97.5%; 
+			margin:8px 0；
+		}
+		.hd_list .title{
+			float:left; 
+			width:100%;
+			height:28px; 
+			line-height:28px; 
+			border-bottom:1px solid #E8E8E8; 
+			margin-bottom:4px;
+		}
+		.hd_list .title{
+			color: #333; 
+			font-size: 14px; 
+			font-weight: bold; 
+			border-bottom:1px solid #2B9B8D; 
+			display:inline-block; 
+			height:28px;
+		}
+		.hd_list ul{
+			float:left; 
+			width: 680px；
+		}
+		.hd_list ul li{
+			float: left; 
+			height: 132px; 
+			margin-right: 0.5px; 
+			margin-top: 7px; 
+			overflow: hidden; 
+			width: 155px; 
+			text-align:center;
+			margin-left: 10px;
+		}
+		.hd_list ul li:nth-of-type(1){
+			margin-left:0;
+		}
+		.hd_list img{
+			height: 110px; 
+			width: 155px;
+		}
+		.hd_list a:visited{ 
+			color:#999;
+		}
+		.hd_side{
+			float: left;
+			width:100%; 
+			margin-top: 26px;
+		}
+		.title{
+			float:right;
+			height: 20px; 
+			overflow: hidden; 
+			padding-bottom: 6px; 
+			width: 100%; 
+			
+		}
+		.title span{
+			margin-right: 300px;
+			float:right;	
+			font-size: 14px; 
+			font-weight: bold; 
+			height: 20px; 
+			line-height: 20px; 
+			overflow: hidden;
+		}
+		.hd_side_pic li{
+			float: left; 
+			height: 60px; 
+			overflow: hidden; 
+			padding-bottom: 10px; 
+			padding-top: 10px;
+			width: 100%; 
+		}
+		.hd_side_pic li a{display:block}
+		.hd_side_pic li a:visited{ color:#999;}
+		.hd_side_pic li img{
+			float: left;
+			height: 60px; overflow: hidden; width: 90px; margin-right:10px;}
+		.hd_side_pic li span{
+	
+			margin-right:200px; 
+			font-size: 14px; height: 24px; line-height: 24px; margin:5px 0; width: 200px; display: block!important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+		.hd_side_pic li p{
+			display: block!important; 
+			overflow: hidden; 
+			text-overflow: ellipsis; 
+			white-space: nowrap;
+			font-size: 14px; 
+			height: 20px; 
+			line-height: 20px; 
+			color:#999; 
+			margin-left: 10px;
+			width: 200px;
+		}
+		.hd_side_list li{
+			display: block!important; 
+			overflow: hidden; 
+			text-overflow: ellipsis; 
+			white-space: nowrap;  
+			height: 25px; line-height: 25px; 
+			margin:3px 0; 
+			overflow: hidden;
+			padding-left: 10px; 
+			width: 290px; 
+			float:left}
+		.hd_side_list li a{font-size:14px}
+		.hd_side_list li a:visited{ color:#999;}
+		.content_side{
+			float: right; 
+			width: 500px;
+			height:700px;
+		}
+		#bottom{
+			background-color: white;
+  			height: 210px;
+  			margin-top: 80px;
+		}
+#di{
+  width:1400px;
+  height:300px;
+  margin: 0 auto;
+}
+.word{
+  margin-top: 40px;
+  color:blue;
+  width:300px;
+  height:200px;
+  float: left;
+  line-height: 30px;
+}
+.list{
+  margin-top: 40px;
+  color:green;
+  font-size: 20px;
+  float: left;
+  margin-left: 75px;
+  width:200px;
+  height: 200px;
+  font-weight: bold;
+}
+.list li{
+  line-height: 45px;
+  list-style-type: none;
+  font-weight:normal;
+}
+.list li a{
+  color:red;
+  text-decoration: none;
+}
+.list li a:hover{
+  color:black;
+}
+.weixin{
+  margin-top: 40px;
+  color:black;
+  float: left;
+  width:170px;
+  height: 30px;
+  margin-left: 100px;
+}
+.code img{
+  margin-left: 100px;
+  width:170px;
+  height: 170px;
+}
